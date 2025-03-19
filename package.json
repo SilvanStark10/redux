@@ -1,0 +1,15 @@
+{
+  "name": "redux-task-manager",
+  "version": "1.0.0",
+  "description": "Redux Task Manager",
+  "main": "index.html",
+  "scripts": {
+    "build": "mkdir -p build && cp index.html build/ && cp -r src build/"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "redux": "^4.1.0",
+    "react-redux": "^7.2.4"
+  }
+}
